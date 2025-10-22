@@ -438,22 +438,11 @@
 <li>安卓9（Pie）加入全面屏手势，在此之前安卓系统主要通过系统下方的导航栏操作（就是那个三角形，圆形和正方形的图标）</li>
 <li>安卓10（Q）加入系统界面的深色模式，系统程序例如设置等都可以以深色模式显示了</li>
 </ol>
-<p>你在日常使用手机的时候也许注意到了，通过点击一个后缀为 apk 的文件可以在一个弹出的交互界面（点击安装，忽略系统风险，输入锁屏密码，安装完成）安装软件。弹出的那个问你是否允许安装的界面叫作“应用包安装程序”（ Package Installer） ， 负责管理软件的安装。实际上安卓系统中不止有 apk 一种软件包可以被安装，apkm 和 xapk 等格式也一样可以，区别就是它们相当于把很多散的 apk 打包在了一起。不过系统默认的安装器可能无法安装这些格式，你可以通过开源软件 <a class="link"   target="_blank" rel="noopener" href="https://github.com/Aefyr/SAI" >SAI<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 直接安装或先使用 <a class="link"   target="_blank" rel="noopener" href="https://github.com/AbdurazaaqMohammed/AntiSplit-M" >AntiSplit-M<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 合并为 apk 后安装。由于国产系统对应用包安装程序的深度定制，你可能需要手动输入锁屏密码或进行生物验证才能安装程序，在类原生系统中只要点一下”安装“就行了。如果你觉得国产系统的应用包安装程序的安装步骤太繁琐，你也可以使用一些第三方的应用安装程序来替代它，例如开源的 <a class="link"   target="_blank" rel="noopener" href="https://github.com/wxxsfxyzm/InstallerX-Revived" >InstallerX-Revived<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 可以在安装界面提供更多选项，如降级安装、指定安装来源等，不过它要先通过已激活的 <a class="link"   target="_blank" rel="noopener" href="https://shizuku.rikka.app/" >Shizuku<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 才能安装，至于如何激活 Shizuku 我们会在下一篇博客讲到。</p>
+<h3 id="软件包"><a href="#软件包" class="headerlink" title="软件包"></a>软件包</h3><p>你在日常使用手机的时候也许注意到了，通过点击一个后缀为 apk 的文件可以在一个弹出的交互界面（点击安装，忽略系统风险，输入锁屏密码，安装完成）安装软件。弹出的那个问你是否允许安装的界面叫作“应用包安装程序”（ Package Installer） ， 负责管理软件的安装。实际上安卓系统中不止有 apk 一种软件包可以被安装，apkm 和 xapk 等格式也一样可以，区别就是它们相当于把很多散的 apk 打包在了一起。不过系统默认的安装器可能无法安装这些格式，你可以通过开源软件 <a class="link"   target="_blank" rel="noopener" href="https://github.com/Aefyr/SAI" >SAI<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 直接安装或先使用 <a class="link"   target="_blank" rel="noopener" href="https://github.com/AbdurazaaqMohammed/AntiSplit-M" >AntiSplit-M<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 合并为 apk 后安装。由于国产系统对应用包安装程序的深度定制，你可能需要手动输入锁屏密码或进行生物验证才能安装程序，在类原生系统中只要点一下”安装“就行了。如果你觉得国产系统的应用包安装程序的安装步骤太繁琐，你也可以使用一些第三方的应用安装程序来替代它，例如开源的 <a class="link"   target="_blank" rel="noopener" href="https://github.com/wxxsfxyzm/InstallerX-Revived" >InstallerX-Revived<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 可以在安装界面提供更多选项，如降级安装、指定安装来源等，不过它要先通过已激活的 <a class="link"   target="_blank" rel="noopener" href="https://shizuku.rikka.app/" >Shizuku<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 才能安装，至于如何激活 Shizuku 我们会在下一篇博客讲到。</p>
 <p>每一个 apk 软件包都有一个能让系统识别到的“包名”（Package Name“），包括系统应用也有，例如”设置“的包名是 com.android.settings 。每个系统环境中只能存在唯一一个确定的包名，包名重复的应用无法重复存在，除非你修改包名（双开除外，原理不同）。apk文件其实也可以视作一个特殊的压缩包，如果你直接解压一个软件的 apk ，会在解压目录中找到一个 AndroidManifest.xml 文件，这里面记录了软件的包名、版本号、申请权限等重要信息，以视频播放器”VLC“ 为例，主要信息如下：</p>
-<p>&#96;&#96;<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    android:versionCode="13060506"
-    android:versionName="3.6.5"
-    android:installLocation="auto"
-    android:compileSdkVersion="34"
-    android:compileSdkVersionCodename="14"
-    package="org.videolan.vlc"
-    platformBuildVersionCode="34"
-    platformBuildVersionName="14"></p>
-<pre><code>&lt;uses-sdk
-    android:minSdkVersion=&quot;17&quot;
-    android:targetSdkVersion=&quot;34&quot; /&gt;
-</code></pre>
-<p>&#96;</p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</span><br><span class="line">  android:versionCode=&quot;13060506&quot;</span><br><span class="line">  android:versionName=&quot;3.6.5&quot;</span><br><span class="line">  android:installLocation=&quot;auto&quot;</span><br><span class="line">  android:compileSdkVersion=&quot;34&quot;</span><br><span class="line">  android:compileSdkVersionCodename=&quot;14&quot;</span><br><span class="line">  package=&quot;org.videolan.vlc&quot;</span><br><span class="line">  platformBuildVersionCode=&quot;34&quot;</span><br><span class="line">  platformBuildVersionName=&quot;14&quot;&gt;</span><br><span class="line"></span><br><span class="line">  &lt;uses-sdk</span><br><span class="line">      android:minSdkVersion=&quot;17&quot;</span><br><span class="line">      android:targetSdkVersion=&quot;34&quot; /&gt;</span><br></pre></td></tr></table></figure></div>
+
+
 <p>Version部分展示了应用版本号与版本名称，SDK Version 记录了应用支持的安卓版本，Package 字段记录了软件包名，其后的 Permission 还记录了应用会使用到的权限。</p>
 <p>以上我们介绍了安卓系统中软件包相关的信息，下一篇我们会详细谈谈 ”ADB“ 这一重要功能。</p>
 
@@ -557,7 +546,7 @@
 	<div class="post-toc">
 		<div class="toc-title">目录</div>
 		<div class="page-title">安卓玩机指南1-软件包</div>
-		<ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%EF%BC%8C%E8%B7%91%E7%9A%84%E6%98%AF%E4%BB%80%E4%B9%88%E7%B3%BB%E7%BB%9F%EF%BC%9F"><span class="nav-text">我的安卓手机，跑的是什么系统？</span></a></li></ol>
+		<ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%EF%BC%8C%E8%B7%91%E7%9A%84%E6%98%AF%E4%BB%80%E4%B9%88%E7%B3%BB%E7%BB%9F%EF%BC%9F"><span class="nav-text">我的安卓手机，跑的是什么系统？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AF%E4%BB%B6%E5%8C%85"><span class="nav-text">软件包</span></a></li></ol>
 
 	</div>
 </div>
