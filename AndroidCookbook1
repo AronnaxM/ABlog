@@ -123,7 +123,7 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://blog.aronnaxm.top/"/>
+    <link rel="canonical" href="https://blog.aronnaxm.top/androidcookbook1"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
@@ -132,14 +132,17 @@
     
         
         <meta name="description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="AronnaxM&#39;s Blog">
-<meta property="og:url" content="https://blog.aronnaxm.top/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安卓玩机指南1-软件包">
+<meta property="og:url" content="https://blog.aronnaxm.top/AndroidCookbook1">
 <meta property="og:site_name" content="AronnaxM&#39;s Blog">
 <meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://blog.aronnaxm.top/images/redefine-og.webp">
+<meta property="article:published_time" content="2025-10-19T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-10-21T16:00:00.000Z">
 <meta property="article:author" content="AronnaxM">
+<meta property="article:tag" content="Android">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://blog.aronnaxm.top/images/redefine-og.webp">
     
@@ -153,7 +156,7 @@
     
     <title>
         
-            AronnaxM&#39;s Blog - Lost in the crowd
+            安卓玩机指南1-软件包 | AronnaxM&#39;s Blog
         
     </title>
 
@@ -231,103 +234,17 @@
 <main class="page-container" id="swup">
 
 	
-	
-    <style>
-        .home-banner-container {
-            background: none !important;
-        }
-        .home-article-item,
-        .sidebar-links,
-        .sidebar-content,
-        a.page-number,
-        a.extend,
-        .sidebar-links .links:hover,
-        .right-bottom-tools,
-        footer.footer {
-            background-color: var(--background-color-transparent-80) !important;
-        }
-        .right-bottom-tools:hover,
-        a.page-number:hover,
-        a.extend:hover {
-            background-color: var(--primary-color) !important;
-        }
-        .site-info,
-        .home-article-sticky-label {
-            background-color: var(--background-color-transparent-15) !important;
-        }
-        .home-article-sticky-label {
-            backdrop-filter: none !important;
-        }
-    </style>
-    <div class="home-banner-background transition-fade fixed top-0 left-0 w-screen h-screen scale-125 sm:scale-110 box-border will-change-transform bg-cover">
-        <img src="/images/wallhaven-wqery6-light.webp" alt="home-banner-background" class="w-full h-full object-cover dark:hidden">
-        <img src="/images/wallhaven-wqery6-dark.webp" alt="home-banner-background" class="w-full h-full object-cover hidden dark:block">
-    </div>
-
-
-<div class="home-banner-container flex justify-center items-center transition-fade relative">
-    
-    <div class="content mt-8 flex flex-col justify-center items-center transition-fade-down">
-        <div class="description flex flex-col justify-center items-center w-screen font-medium text-center"
-        
-        >
-            AronnaxM's Blog
-            
-            
-                <p><i id="subtitle"></i></p>
-            
-        </div>
-        
-            
-            <div class="absolute bottom-0.5 flex flex-row justify-between max-w-[1340px] items-center w-full px-8 sm:px-12">
-                <div class="flex p-3 bg-gray-300/50 dark:bg-gray-500/40 backdrop-blur-lg border border-white/20 dark:border-gray-500/30 group rounded-full cursor-pointer flex justify-center items-center aspect-square h-full shadow-redefine-flat hover:shadow-redefine-flat-hover transition-shadow" onclick="scrollToMain()" >
-                    <i class="fa-solid fa-arrow-down fa-fw fa-lg group-hover:translate-y-1 transition-transform"></i>
-                </div>
-                <div class="social-contacts px-6 py-3 bg-gray-300/50 dark:bg-gray-500/40 backdrop-blur-lg border border-white/20 dark:border-gray-500/30 shadow-redefine-flat rounded-full flex flex-row gap-3 items-center">
-                    
-                        
-                            
-                                <span class="social-contact-item github">
-                                    <a target="_blank" href="https://github.com/AronnaxM">
-                                        <i class="fa-brands fa-fw fa-lg fa-github"></i>
-                                    </a>
-                                </span>
-                            
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                    
-                </div>
-            </div>
-        
-    </div>
-    <script>
-        const scrollToMain = ()=> {
-            console.log('scroll');
-            const target = document.querySelector('.main-content-container');
-            target.scrollIntoView({ behavior: 'smooth'});
-        }
-    </script>
-</div>
-	
 
 	<div class="main-content-container flex flex-col justify-between min-h-dvh">
 		<div class="main-content-header">
 			<header class="navbar-container px-6 md:px-12">
-    <div class="navbar-content transition-navbar has-home-banner">
+    <div class="navbar-content transition-navbar ">
         <div class="left">
             
             <a class="logo-title" href="/">
-                <h1>
+                
                 AronnaxM&#39;s Blog
-                </h1>
+                
             </a>
         </div>
 
@@ -341,7 +258,7 @@
 
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class="active"
+                                <a class=""
                                    href="/"
                                         >
                                     <i class="fa-regular fa-house fa-fw"></i>
@@ -375,7 +292,7 @@
 
                     <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
                         
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
                            href="/"
                         >
                             <span>
@@ -420,82 +337,51 @@
 
 		<div class="main-content-body transition-fade-up">
 			
-			<div class="home-sidebar-container">
-    <div class="sticky-container sticky">
-        
-        
-            
-            <div class="sidebar-content" >
-                <div class="avatar flex justify-center">
-    <img src="/images/redefine-avatar.svg">
-</div>
-                <div class="author flex flex-col justify-center my-2.5 mx-0">
-    <div class="name">AronnaxM</div>
-    
-        <div class="label">Lv1</div>
-    
-</div>
-                <div class="statistics flex justify-around my-2.5">
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">1</div>
-        <div class="label text-third-text-color text-sm">标签</div>
-    </a>
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">1</div>
-        <div class="label text-third-text-color text-sm">分类</div>
-    </a>
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">1</div>
-        <div class="label text-third-text-color text-sm">文章</div>
-    </a>
-</div>
-            </div>
-        
-
-    </div>
-</div>
-
-			
 
 			<div class="main-content">
-				<div class="home-content-container">
-    <ul class="home-article-list">
-        
-            <li class="home-article-item">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
 
-                
+		<div class="article-title relative w-full">
+			
+			<div class="w-full flex items-center pt-6 justify-start">
+				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">安卓玩机指南1-软件包</h1>
+			</div>
+			
+		</div>
 
-                
-
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
-                    <h3 class="home-article-title">
-                        <a href="/AndroidCookbook1">
-                            安卓玩机指南1-软件包
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            这篇教程适用于安卓刷机入门用户。注意，在本系列中，HarmonyOS NEXT 不包括在适用范围内。大佬们当看水文即可。
-我的安卓手机，跑的是什么系统？在你刷之前当然是安卓系统（笑）
-打开手机的 设置-&gt;关于 ，你可以看到手机当前运行系统的相关信息。大概率你用的是来自国产手机厂商生产的国行手机，那么你的系统信息应当如下：	如果你是小米&#x2F;红米用户，你的系统应是 HyperOS ...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Mon Oct 20 2025 00:00:00 GMT+0800">
-                
-                    2025-10-20
-                
-            </span>
+		
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			<div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+				<img src="/images/redefine-avatar.svg">
+			</div>
+			<div class="info flex flex-col justify-between">
+				<div class="author flex items-center">
+					<span class="name text-default-text-color text-lg font-semibold">AronnaxM</span>
+					
+					<span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv1</span>
+					
+				</div>
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2025-10-20</span>
+        <span class="mobile">2025-10-20</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2025-10-22</span>
+            <span class="mobile">2025-10-22</span>
+            <span class="hover-info">更新</span>
         </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
             <ul>
                 
                 
@@ -509,38 +395,174 @@
                 
             </ul>
         </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/Android/">Android</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Android/">Android</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
 
-    <a href="/AndroidCookbook1">阅读全文<span class="seo-reader-text">安卓玩机指南1-软件包</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
 </div>
 
-                </div>
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<p>这篇教程适用于安卓刷机入门用户。注意，在本系列中，HarmonyOS NEXT 不包括在适用范围内。大佬们当看水文即可。</p>
+<h3 id="我的安卓手机，跑的是什么系统？"><a href="#我的安卓手机，跑的是什么系统？" class="headerlink" title="我的安卓手机，跑的是什么系统？"></a>我的安卓手机，跑的是什么系统？</h3><p><del>在你刷之前当然是安卓系统（笑）</del></p>
+<p>打开手机的 设置-&gt;关于 ，你可以看到手机当前运行系统的相关信息。大概率你用的是来自国产手机厂商生产的<strong>国行</strong>手机，那么你的系统信息应当如下：<br>	如果你是小米&#x2F;红米用户，你的系统应是 HyperOS 系统（早期为 MIUI）；<br>	如果你是华为手机，你的系统应该是 HarmonyOS NEXT （俗称纯血鸿蒙，仅限部分新机型）或者鸿蒙4，部分老机型以及荣耀从华为脱离前的产品为鸿蒙3或2，早期荣耀和外版华为是 EMUI ；<br>	独立后的荣耀为 Magic UI ；<br>	OPPO 及其子品牌一加为 ColorOS ；<br>	Vivo 为 OriginOS ；</p>
+<p>看完系统版本，你可能还会注意到下面还标注了一个安卓版本，通常最新版的 HyperOS 或 ColorOS是安卓15&#x2F;16 。同为安卓，为什么系统界面大相径庭？</p>
+<p>目前几乎所有安卓手机的系统底层都来自于目前由谷歌构建维护的 AOSP 系统（Android Open Source Project，安卓开源项目），所有国产系统均由 AOSP 深度修改定制而来，增加或删改了一些系统功能，例如基本上所有最新版国产系统都加入了围绕在挖孔屏旁边的类似 iOS 的灵动岛，鸿蒙4彻底移除了 GMS 服务框架，Google Play 商店消失了，依托于谷歌服务框架的一些软件也无法正常运行，当然以后可能会教你鸿蒙4怎么把谷歌家的玩意大致补回来。谷歌自家的 Pixel 手机搭载的是真正的原生安卓系统，也有一些组织或项目基于 AOSP 做了一些不那么大的修改构建了类原生系统，包括 LineageOS 等，在后面的博客中我们也会讲到。</p>
+<p>至于那个安卓版本，体现了你当前定制系统所基于的安卓版本，我们一般能在设置中看到具体的数字版本号（也叫SDK版本），每个版本也有它对应的”代号名称“，如安卓8.1的代号为”Oreo“。谷歌在每个大版本中都加入了一些功能，这里列举几个系统版本中一些日用中对用户体验影响较为明显的功能：</p>
+<ol>
+<li>安卓9（Pie）加入全面屏手势，在此之前安卓系统主要通过系统下方的导航栏操作（就是那个三角形，圆形和正方形的图标）</li>
+<li>安卓10（Q）加入系统界面的深色模式，系统程序例如设置等都可以以深色模式显示了</li>
+</ol>
+<p>你在日常使用手机的时候也许注意到了，通过点击一个后缀为 apk 的文件可以在一个弹出的交互界面（点击安装，忽略系统风险，输入锁屏密码，安装完成）安装软件。弹出的那个问你是否允许安装的界面叫作“应用包安装程序”（ Package Installer） ， 负责管理软件的安装。实际上安卓系统中不止有 apk 一种软件包可以被安装，apkm 和 xapk 等格式也一样可以，区别就是它们相当于把很多散的 apk 打包在了一起。不过系统默认的安装器可能无法安装这些格式，你可以通过开源软件 <a class="link"   target="_blank" rel="noopener" href="https://github.com/Aefyr/SAI" >SAI<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 直接安装或先使用 <a class="link"   target="_blank" rel="noopener" href="https://github.com/AbdurazaaqMohammed/AntiSplit-M" >AntiSplit-M<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 合并为 apk 后安装。由于国产系统对应用包安装程序的深度定制，你可能需要手动输入锁屏密码或进行生物验证才能安装程序，在类原生系统中只要点一下”安装“就行了。如果你觉得国产系统的应用包安装程序的安装步骤太繁琐，你也可以使用一些第三方的应用安装程序来替代它，例如开源的 <a class="link"   target="_blank" rel="noopener" href="https://github.com/wxxsfxyzm/InstallerX-Revived" >InstallerX-Revived<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 可以在安装界面提供更多选项，如降级安装、指定安装来源等，不过它要先通过已激活的 <a class="link"   target="_blank" rel="noopener" href="https://shizuku.rikka.app/" >Shizuku<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 才能安装，至于如何激活 Shizuku 我们会在下一篇博客讲到。</p>
+<p>每一个 apk 软件包都有一个能让系统识别到的“包名”（Package Name“），包括系统应用也有，例如”设置“的包名是 com.android.settings 。每个系统环境中只能存在唯一一个确定的包名，包名重复的应用无法重复存在，除非你修改包名（双开除外，原理不同）。apk文件其实也可以视作一个特殊的压缩包，如果你直接解压一个软件的 apk ，会在解压目录中找到一个 AndroidManifest.xml 文件，这里面记录了软件的包名、版本号、申请权限等重要信息，以视频播放器”VLC“ 为例，主要信息如下：</p>
+<p>&#96;<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="13060506"
+    android:versionName="3.6.5"
+    android:installLocation="auto"
+    android:compileSdkVersion="34"
+    android:compileSdkVersionCodename="14"
+    package="org.videolan.vlc"
+    platformBuildVersionCode="34"
+    platformBuildVersionName="14"></p>
+<pre><code>&lt;uses-sdk
+    android:minSdkVersion=&quot;17&quot;
+    android:targetSdkVersion=&quot;34&quot; /&gt;`
+</code></pre>
+<p>Version部分展示了应用版本号与版本名称，SDK Version 记录了应用支持的安卓版本，Package 字段记录了软件包名，其后的 Permission 还记录了应用会使用到的权限。</p>
+<p>以上我们介绍了安卓系统中软件包相关的信息，下一篇我们会详细谈谈 ”ADB“ 这一重要功能。</p>
+
+		</div>
+
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> 安卓玩机指南1-软件包</li>
+        <li><strong>作者:</strong> AronnaxM</li>
+        <li><strong>创建于
+                :</strong> 2025-10-20 00:00:00</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2025-10-22 00:00:00
             </li>
         
+        <li>
+            <strong>链接:</strong> https://github.com/AronnaxM//AndroidCookbook1
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a> 进行许可。
+            
+        </li>
     </ul>
-
-    <div class="home-paginator px-7 py-5">
-        <div class="paginator">
-	<span class="page-number current">1</span>
 </div>
-  
+
+		</div>
+		
+
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Android/">#Android</a>&nbsp;
+			</li>
+			
+		</ul>
+		
+
+		
+
+		
+
+
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
     </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://example.example.com',
+          dark: 'body[class~="dark-mode"]',
+          reaction: false,
+          requiredMeta: ['nick', 'mail'],
+          emoji: [],
+                    lang: 'zh-CN',
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
 </div>
 
+		</div>
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">目录</div>
+		<div class="page-title">安卓玩机指南1-软件包</div>
+		<ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%EF%BC%8C%E8%B7%91%E7%9A%84%E6%98%AF%E4%BB%80%E4%B9%88%E7%B3%BB%E7%BB%9F%EF%BC%9F"><span class="nav-text">我的安卓手机，跑的是什么系统？</span></a></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
 			</div>
 
 			
@@ -618,6 +640,26 @@
 		</div>
 	</div>
 
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		<!-- TOC aside toggle -->
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		<!-- go comment -->
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
 	
 
 	<div class="right-side-tools-container">
