@@ -123,7 +123,7 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://blog.aronnaxm.top/2025/10/22/安卓玩机指南1-软件包/"/>
+    <link rel="canonical" href="https://blog.aronnaxm.top/androidcookbook1"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
@@ -133,15 +133,16 @@
         
         <meta name="description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="AronnaxM&#39;s Blog">
-<meta property="og:url" content="https://blog.aronnaxm.top/2025/10/22/%E5%AE%89%E5%8D%93%E7%8E%A9%E6%9C%BA%E6%8C%87%E5%8D%971-%E8%BD%AF%E4%BB%B6%E5%8C%85/index.html">
+<meta property="og:title" content="安卓玩机指南1-软件包">
+<meta property="og:url" content="https://blog.aronnaxm.top/AndroidCookbook1">
 <meta property="og:site_name" content="AronnaxM&#39;s Blog">
 <meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://blog.aronnaxm.top/images/redefine-og.webp">
-<meta property="article:published_time" content="2025-10-22T08:20:07.489Z">
-<meta property="article:modified_time" content="2025-10-22T08:44:29.117Z">
+<meta property="article:published_time" content="2025-10-19T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-10-21T16:00:00.000Z">
 <meta property="article:author" content="AronnaxM">
+<meta property="article:tag" content="Android">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://blog.aronnaxm.top/images/redefine-og.webp">
     
@@ -155,7 +156,7 @@
     
     <title>
         
-            AronnaxM&#39;s Blog - Lost in the crowd
+            安卓玩机指南1-软件包 | AronnaxM&#39;s Blog
         
     </title>
 
@@ -313,11 +314,11 @@
 
         <div class="statistics flex justify-around my-2.5">
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">1</div>
         <div class="label text-third-text-color text-sm">标签</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">1</div>
         <div class="label text-third-text-color text-sm">分类</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
@@ -344,7 +345,7 @@
 		<div class="article-title relative w-full">
 			
 			<div class="w-full flex items-center pt-6 justify-start">
-				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3"></h1>
+				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">安卓玩机指南1-软件包</h1>
 			</div>
 			
 		</div>
@@ -365,20 +366,47 @@
 					<div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2025-10-22 16:20:07</span>
-        <span class="mobile">2025-10-22 16:20:07</span>
+        <span class="desktop">2025-10-20</span>
+        <span class="mobile">2025-10-20</span>
         <span class="hover-info">创建</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2025-10-22 16:44:29</span>
-            <span class="mobile">2025-10-22 16:44:29</span>
+            <span class="desktop">2025-10-22</span>
+            <span class="mobile">2025-10-22</span>
             <span class="hover-info">更新</span>
         </span>
     
 
     
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/Android/">Android</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Android/">Android</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
     
 
     
@@ -435,18 +463,18 @@
 		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
 			<div class="article-copyright-info-container">
     <ul>
-        <li><strong>标题:</strong> </li>
+        <li><strong>标题:</strong> 安卓玩机指南1-软件包</li>
         <li><strong>作者:</strong> AronnaxM</li>
         <li><strong>创建于
-                :</strong> 2025-10-22 16:20:07</li>
+                :</strong> 2025-10-20 00:00:00</li>
         
             <li>
                 <strong>更新于
-                    :</strong> 2025-10-22 16:44:29
+                    :</strong> 2025-10-22 00:00:00
             </li>
         
         <li>
-            <strong>链接:</strong> https://github.com/AronnaxM/2025/10/22/安卓玩机指南1-软件包/
+            <strong>链接:</strong> https://github.com/AronnaxM//AndroidCookbook1
         </li>
         <li>
             <strong>
@@ -464,6 +492,14 @@
 		</div>
 		
 
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Android/">#Android</a>&nbsp;
+			</li>
+			
+		</ul>
 		
 
 		
@@ -520,7 +556,7 @@
 		<div class="post-toc-wrap">
 	<div class="post-toc">
 		<div class="toc-title">目录</div>
-		<div class="page-title"></div>
+		<div class="page-title">安卓玩机指南1-软件包</div>
 		<ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%EF%BC%8C%E8%B7%91%E7%9A%84%E6%98%AF%E4%BB%80%E4%B9%88%E7%B3%BB%E7%BB%9F%EF%BC%9F"><span class="nav-text">我的安卓手机，跑的是什么系统？</span></a></li></ol>
 
 	</div>
